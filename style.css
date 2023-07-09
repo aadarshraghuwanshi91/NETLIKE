@@ -193,17 +193,17 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
   .header-right .user-icon{
     width: 30px;
     border-radius: 50%;
-    margin-left: 460px;
+    margin-left: 60px;
   }
   
   .search .material-symbols-outlined{
     z-index: 5;
-    margin-right: -820px;
+    margin-right: 20px;
      color: rgb(255, 255, 255);
    }
   
   #audio-control {
-    margin-left: 800px;
+    margin-left: 30px;
     cursor:pointer;
     padding: 10px 20px;
     background: none;
@@ -212,7 +212,7 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
     display: inline-block;
   } 
   .raaa{
-    width: 900px;
+    width: 320px;
   }
   .slidermain {
     font-size: 60px;
@@ -230,12 +230,11 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
   padding-top: 0;
  }
  .movies-list {
-   width: 900px;
+   width: 100%px;
  }
  .card-container{
-   width: 900px;
+   width: 100%px;
  }
-
  }
 
 
@@ -278,7 +277,7 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
  .movies-list {
     padding-right: 25%;
     width: 100%px;
-    height: 309px;
+    height: 269px;
     position: relative;
     margin: 0px 0 0px;
  }
@@ -289,7 +288,7 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
     position: absolute;
     width: 100%;
     padding-left: 0%;
-    height: 309px;
+    height: 269PX;
     display: flex;
     align-items: center;
     overflow-x: auto;
@@ -303,9 +302,9 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
  
  .card {
     position: relative;
-    min-width: 208.5px;
-    width: 208.5px;
-    height: 309px;
+    min-width: 178.5px;
+    width: 178.5px;
+    height: 269px;
     border-radius: 0px;
     overflow: hidden;
     margin-left: 10px;
@@ -336,7 +335,6 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
  }
 
   /* -------------------------------------------------------------lower movie ends--------------------------------------------------------- */
-
 
 
 
