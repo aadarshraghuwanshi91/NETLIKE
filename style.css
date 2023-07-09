@@ -231,18 +231,11 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
  }
  .movies-list {
    width: 900px;
-   height: 469px;
  }
  .card-container{
    width: 900px;
-   height: 469px;
  }
- .card {
-  min-width: 378.5px;
-  width: 378.5px;
-  height: 469px;
-  margin-left: 10px;
-  }
+
  }
 
 
@@ -285,7 +278,7 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
  .movies-list {
     padding-right: 25%;
     width: 100%px;
-    height: 409px;
+    height: 309px;
     position: relative;
     margin: 0px 0 0px;
  }
@@ -296,7 +289,7 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
     position: absolute;
     width: 100%;
     padding-left: 0%;
-    height: 409PX;
+    height: 309px;
     display: flex;
     align-items: center;
     overflow-x: auto;
@@ -310,9 +303,9 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
  
  .card {
     position: relative;
-    min-width: 278.5px;
-    width: 278.5px;
-    height: 409px;
+    min-width: 208.5px;
+    width: 208.5px;
+    height: 309px;
     border-radius: 0px;
     overflow: hidden;
     margin-left: 10px;
