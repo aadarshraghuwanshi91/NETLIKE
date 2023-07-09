@@ -72,7 +72,12 @@ function closeNav() {
         </div>
       </nav>
     </header>
-   
+    <script type="text/javascript">
+      window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      })
+    </script>
   <!-- --------------hearde ends------------ -->
 
 
@@ -81,7 +86,7 @@ function closeNav() {
 <!-- slider starts  -->
 <div class="main-slider">
   <div class="back-video">
-    <video id="myVideo" class="raaa" poster="Capture0.png" autoplay preload="true" muted loop >
+    <video id="myVideo" class="raaa" poster="Capture0.png"  preload="true" muted loop >
       <source src="y2mate_com_-_Kesariya__Brahmāstra__Ranbir_Kapoor__Alia_Bhatt__Pritam__Arijit_Singh__Amitabh_Bhattacharya_1080p_AdobeExpress (3) (2).mp4" type="video/mp4">                                   
         sorry, your browser doesn't support videos.
     </video>
@@ -117,11 +122,7 @@ function closeNav() {
             observer.observe(document.querySelector('#myVideo'));
       </script>    
   </div> 
-     <h1 class="slidermain" data-animation-in="fadeInLeft"data-delay-in="10">The Conjuring
-    </h1>  
-  <div class="playmore">
-  
-  </div>
+   
   <div class="volume">
     <div id="audio-control" class="muted">
       <span class="material-symbols-outlined">volume_off</span>
