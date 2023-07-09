@@ -187,7 +187,7 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
 
  @media (max-width: 900px){
   .main-slider{
-    width: 100%;
+    width: 320px;
     height: 350px;
 }
   .header-right .user-icon{
@@ -212,7 +212,7 @@ h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
     display: inline-block;
   } 
   .raaa{
-    width: 320px;
+    width: 100%;
   }
   .slidermain {
     font-size: 60px;
